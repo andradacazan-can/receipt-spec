@@ -19,5 +19,4 @@ jobs:
             const ok = validate(data);
             if(!ok){ console.error('FAIL', f, validate.errors); fail++; }
           }
-          if (fail) process.exit(1);
-        "
+          if (fail) process.exit(1); "
